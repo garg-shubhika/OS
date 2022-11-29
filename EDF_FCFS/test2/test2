@@ -1,0 +1,103 @@
+running test2
+./schedule test2/tasksEDF_FCFS 
+Loading file of tasks
+******** Time 0: T1
+
+******** Time 1: T3
+
+******** Time 2: T2
+
+******** Time 3: T2
+
+******** Time 4: T3
+
+******** Time 5: T3
+
+******** Time 6: T3
+
+******** Time 7: no task to schedule
+
+******** Time 8: no task to schedule
+
+******** Time 9: no task to schedule
+
+******** Time 10: no task to schedule
+
+******** Time 11: no task to schedule
+
+******** Time 12: no task to schedule
+
+******** Time 13: no task to schedule
+
+******** Time 14: no task to schedule
+
+******** Time 15: T2
+
+******** Time 16: T2
+
+******** Time 17: no task to schedule
+
+******** Time 18: no task to schedule
+
+******** Time 19: no task to schedule
+
+******** Time 20: no task to schedule
+
+******** Time 21: no task to schedule
+
+******** Time 22: no task to schedule
+
+******** Time 23: no task to schedule
+
+******** Time 24: no task to schedule
+
+******** Time 25: no task to schedule
+
+******** Time 26: no task to schedule
+
+******** Time 27: no task to schedule
+
+******** Time 28: T2
+
+******** Time 29: T2
+
+******** Time 30: no task to schedule
+
+******** Time 31: no task to schedule
+
+******** Time 32: no task to schedule
+
+******** Time 33: no task to schedule
+
+******** Time 34: no task to schedule
+
+******** Time 35: no task to schedule
+
+******** Time 36: no task to schedule
+
+******** Time 37: no task to schedule
+
+******** Time 38: no task to schedule
+
+******** Time 39: no task to schedule
+
+******** Time 40: no task to schedule
+
+******** Time 41: T2
+
+******** Time 42: T2
+
+******** Time 43: no task to schedule
+
+******** Time 44: no task to schedule
+
+******** Time 45: no task to schedule
+
+******** Time 46: no task to schedule
+
+******** Time 47: no task to schedule
+
+******** Time 48: no task to schedule
+
+******** Time 49: no task to schedule
+
