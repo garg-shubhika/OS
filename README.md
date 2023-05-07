@@ -1,3 +1,3 @@
 # OS
-Link to our Robot Project: 
+Link to the Robot Project: 
 https://osbotrhino.web.app/
