@@ -1,0 +1,57 @@
+Rotate right(angle): //using compass sensor
+    get the current angle
+    add 180 to the input value
+    set the motor speed and duration of rotation
+    continuously check the current angle of the robot
+    break when the current angle is close to the target angle
+
+Rotate left(angle):
+    get the current angle
+    add 180 to the input value
+    set the motor speed and duration of rotation
+    continuously check the current angle of the robot
+    break when the current angle is close to the target angle
+
+rotate_right_dir(angle): //using absolute value
+    set the stop action for the motors to coast
+    set the speed and duration for the motors based on the angle
+
+rotate_left_dir(angle):
+    set the stop action for the motors to coast
+    set the speed and duration for the motors based on the angle
+
+pickup(val): //for picking the ball
+    set the stop action for the motor to coast
+    set the speed and duration for the motor //by trial and error, val = 600
+
+pickdown(val): //for action opposite to pickup
+    set the stop action for the motor to coast
+    set the speed and duration for the motor //by trial and error, val = -600
+
+object_scan_left(): //based on compass value
+    initialize variables
+        angle = 0;
+        min = get_sonar_value();
+        min_compass = get_compass_value();
+    loop to scan objects to the left
+    keep track of the minimum value and the angle at which it was found
+    return the time and angle at which the minimum value was found
+
+object_scan_right(): //based on compass value
+    initialize variables
+        angle = 0;
+        min = get_sonar_value();
+        min_compass = get_compass_value();
+    loop to scan objects to the right
+    keep track of the minimum value and the angle at which it was found
+    return the time and angle at which the minimum value was found
+
+throw_ball(val):
+    rotate the 4th motor for val time 
+
+find_position:
+    Continuously checking the distance value from ultrasonic sensor
+    If distance value is less than 125, the robot stops and picks up the object
+
+adjust_direction(val):
+    use compass value and rotate to initial angle

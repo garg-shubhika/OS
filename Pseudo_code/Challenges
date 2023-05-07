@@ -1,0 +1,9 @@
+We faced several different challenges:
+
+1. We changed the architecture around five times due to implementing different functionalities like creating a basic structure, then implementing structure with ball picker, a structure with add-on features of ball launcher and compass for navigation.
+
+2. We faced issues with compass angles initially as it was sensing wrong values.
+
+3. We also faced issues in our object_scan function where the sensing of the ball was behaving differenly in the arena and the outside normal floor.
+
+4. Issues with ultra-sonic sensor where the ball-picker arm was becoming an obstactle in it's path and it gave wrong values on executing.

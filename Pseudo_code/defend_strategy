@@ -1,0 +1,5 @@
+//The defend strategy is programmed as such where our robot goes forward, rotates right and then comes back to it's back_to_position.
+
+go_forward(25);
+rotate_right(initial+90);
+back_to_position(25);
